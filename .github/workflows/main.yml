@@ -10,7 +10,7 @@ jobs:
    runs-on: ubuntu-latest
    
    steps:
-   - uses: action/checkout@v2
+   - uses: actions/checkout@v2
    - name: Use Node.js v10.14.2
      uses: action/setup-node@v1
      with:
